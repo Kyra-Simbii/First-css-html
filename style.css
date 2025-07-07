@@ -1,0 +1,87 @@
+/*Import Poppins Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(217, 254, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo img{
+    width: 100px;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.logo h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+header .chip{
+    width: 70px;
+}
+
+.container{
+    position: relative;
+    background-image: linear-gradient(#88cafc,#9BE2FE);
+    max-width: 450px;
+    width: 100%;
+    padding: 28px;
+    border-radius: 28px;
+}
+
+header, .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 60px;
+}
+
+.card-details .number{
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.card-details .name{
+    font-size: 19px;
+    margin-top: 1px;
+    font-weight: 400;
+}
+
+.bg{
+   position: absolute;
+    height: 230px;
+    left: 217px;
+}
+
+h6{
+    color: 	#fff;
+    font-size: 14px;
+}
+
+h5{
+    color: 	#fff;
+}
+
+h5.exp-date{
+    font-size: 18px;
+    font-weight: 400;
+}
